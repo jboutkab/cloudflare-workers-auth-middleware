@@ -9,6 +9,6 @@ OKTA_ISSUER = ""
 enabled = true
 head_sampling_rate = 1 # optional. default = 1.
 
-routes = [
-  { pattern = "", custom_domain =   }
-]
+[[routes]]
+pattern = ""
+custom_domain = true
